@@ -72,9 +72,9 @@ $$m \approx \left\lceil -\frac{\log(1 + p)}{\log(p)} \right\rceil$$
 ### Project Structure
 ```text
 ├── README.md
-├── main.m               # Top-level script to run pipeline, print tables, generate plots
-├── pixelPredict.m       # Linear spatial predictor
-├── fitTSGD.m            # Distribution fitting and parameter estimation
+├── predict.m            # Linear spatial predictor
+├── Output Fig1.png      # Output Plot for Figure 1
+├── Output Fig2.png      # Output Plot for Figure 2
 ├── golombLength.m       # Calculates bit-length for mapped integers under parameter m
 ├── lena.png             # Test image
 └── airport007.jpg       # Test image
